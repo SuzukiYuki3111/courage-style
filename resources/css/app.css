@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100%;
-    width: 100%
+    width: 100%;
   }
 
 
@@ -53,7 +53,9 @@ body{
   .video{
     text-align: center;
     margin-top: -10px;
-     filter: grayscale(100%) contrast(60%);/*背景動画にかけるフィルタ*/
+    filter: grayscale(100%) contrast(60%);
+    width: 100vw;
+    height: auto;
   }
 
 
@@ -71,7 +73,7 @@ body{
       margin-top: 200px;
       margin-left: auto;
       margin-right: auto;
-      width: 1100px;
+      width: 100%;
     }
 
     .profile-icon{
@@ -179,7 +181,7 @@ body{
       border-radius: 10px;
       margin-left: auto;
       margin-right: auto;
-      width: 1100px;
+      width: 100%;
       display: flex;
       justify-content: center;
     }
@@ -237,9 +239,35 @@ body{
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 80%;
+    padding: 10px 20px;
   }
 
  .error-msg{
      color: red;
  }
+
+@media screen and (max-width: 750px){
+  .profile{
+    display: block;
+    text-align: center;
+  }
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.video{
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+
+.video video {
+  width: 100%;
+}

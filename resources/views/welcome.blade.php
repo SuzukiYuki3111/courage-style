@@ -2,10 +2,12 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <!-- devicon -->
   　    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
+  		 	<!-- purecss -->
+  		 <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
         <title>Courage Style</title>
 
     </head>
@@ -28,7 +30,7 @@
             </ul>
           </nav>
           <div class="video" id="video">
-            <video src="{{ asset('images/IMG_0526.mp4') }}" loop autoplay muted style="width: 1100px; height: 630px;"></video>
+            <video src="{{ asset('images/IMG_0526.mp4') }}" loop autoplay muted playsinline></video>
           </div>
 
 
