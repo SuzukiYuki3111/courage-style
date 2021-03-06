@@ -36,26 +36,25 @@
 
         <div class="profile" id="Profile">
           <img class="profile-icon" src="{{ asset('images/20210211_210222_109.jpg') }}" alt="Suzuki Yuki" style="width: 250px; height: 250px;">
-          <div class="profile-text">
-          <h2>Profile</h2>
-          <div class="sns-icon">
-            <a href="https://twitter.com/courage3111" target="_blank" rel="noopener"><i class="devicon-twitter-original colored"></i></a>　&nbsp;&nbsp;
-            <a href="https://github.com/SuzukiYuki3111" target="_blank" rel="noopener"><i class="devicon-github-original-wordmark colored"></i>
-            </a>
-          </div>
-          <h4>Suzuki Yuki</h4>
-          <p>
-            生年月日：11月13日<br>
-            出身地：神奈川県茅ヶ崎市<br>
-          </p>
-          <p>
-            高校時代からダンスを始め、腰痛に悩まされていた。<br>
-            怪我をしない体作りを学ぶため柔道整復師の道を目指す。<br>
-            2017年3月に柔道整復師免許を取得し、4月より接骨院に勤務。<br>
-            2020年12月に退社し、エンジニアとしてジョブチェンジを目指す。
-          </p>
-          <div class="modal-open"><a href="#modal">More Details</a></div>
-        </div>
+            <div class="profile-text">
+                <h2>Profile</h2>
+                <div class="sns-icon">
+                    <a href="https://twitter.com/courage3111" target="_blank" rel="noopener"><i class="devicon-twitter-original colored"></i></a>　&nbsp;&nbsp;
+                    <a href="https://github.com/SuzukiYuki3111" target="_blank" rel="noopener"><i class="devicon-github-original-wordmark colored"></i></a>
+                </div>
+                <h4>Suzuki Yuki</h4>
+                    <p>
+                        生年月日：11月13日<br>
+                        出身地：神奈川県茅ヶ崎市<br>
+                    </p>
+                    <p>
+                        高校時代からダンスを始め、腰痛に悩まされていた。<br>
+                        怪我をしない体作りを学ぶため柔道整復師の道を目指す。<br>
+                        2017年3月に柔道整復師免許を取得し、4月より接骨院に勤務。<br>
+                        2020年12月に退社し、エンジニアとしてジョブチェンジを目指す。
+                    </p>
+                    <div class="modal-open"><a href="#modal">More Details</a></div>
+            </div>
 
           <div class="modal" id="modal">
             <a href="#!" class="overlay"></a>
@@ -67,16 +66,15 @@
                       <img src="{{ asset('images/20210211_210222_74.jpg') }}" alt="icon">
                     </div>
                     <div class="modal-text">
-                      <h2>Profile</h2>
-                      <h4>Suzuki Yuki</h4>
+                      <h3>Suzuki Yuki</h3>
                       <p>
                         生年月日：1995年11月13日<br>
-                        出身地：神奈川県茅ヶ崎市<br>
+                        出身地：神奈川県茅ヶ崎市<br><br>
                         高校時代からブレイクダンスを始め、腰痛に悩まされていた。<br>
                         怪我をしない体作りを学ぶため柔道整復師の道を目指す。<br>
                         2017年3月に柔道整復師免許を取得し、4月より接骨院に勤務。<br>
                         2020年11月より「SAMURAI ENGINEER」を受講しエンジニアの道を志す。<br>
-                        2020年12月に退社し、本格的にエンジニアとしてジョブチェンジを目指す。<br>
+                        2020年12月に退社し、本格的にエンジニアとしてジョブチェンジを目指す。<br><br>
                       </p>
                     </div>
                       <hr>
@@ -88,7 +86,8 @@
                         2018 SummerBomb CrewBattle Best8<br>
                       </p>
                       <hr>
-                    <h2>Skills</h2> <br>
+                    <h2>Skills</h2>
+                    <p>※　現在勉強中です。</p>
                     <div class="icons">
                       <i class="devicon-html5-plain-wordmark colored"></i>
                       <i class="devicon-css3-plain-wordmark colored"></i>
